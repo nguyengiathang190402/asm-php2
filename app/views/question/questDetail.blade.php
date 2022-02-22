@@ -3,7 +3,7 @@
     @foreach ($quest as $quest)
         <div>
             {{$quest->name }}<br>
-            @oreach ($answer as $answer)
+            @foreach ($answer as $answer)
                 <div>
                     @if ($answer->question_id == $quest->id)
                         Đáp án:{{ $answer->content }}

@@ -34,7 +34,7 @@
                                 <td><?= $user->email ?></td>
                                 <td><?= $user->password ?></td>
                                 <td>
-                                    <a href="{{<?= BASE_URL . 'dashboard/tai-khoan/cap-nhat/' . $user->id ?>}}" class="btn btn-sm btn-primary">
+                                    <a href="{{ BASE_URL . 'dashboard/tai-khoan/cap-nhat/' . $user->id }}" class="btn btn-sm btn-primary">
                                         <i class="fas fa-edit"></i>
                                     </a>
 

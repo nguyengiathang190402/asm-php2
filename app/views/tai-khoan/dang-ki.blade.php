@@ -495,7 +495,7 @@ html {
    </div>
 
    <div class="input">
-   <label class="terms">Đã có tài khoản</label><a href="<?= BASE_URL . 'tai-khoan/dang-nhap' ?>" style="text-decoration: none;font-style: italic;">Đăng Nhập</a>
+   <label class="terms">Đã có tài khoản</label><a href="{{ BASE_URL . 'tai-khoan/dang-nhap' }}" style="text-decoration: none;font-style: italic;">Đăng Nhập</a>
                         </div>
       <span class="spin"></span>
    </div>

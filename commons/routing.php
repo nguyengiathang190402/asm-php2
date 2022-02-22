@@ -7,7 +7,7 @@ use App\Controllers\QuestionController;
 use App\Controllers\AnswerController;
 use Phroute\Phroute\RouteCollector;
 
-function applyRoute($url)
+function applyRouting($url)
 {
     // composer require illuminate/database
     // composer require illuminate/events
